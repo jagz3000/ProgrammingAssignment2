@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+# the function creates the initial object to invert the matrix
+
 makeCacheMatrix <- function(x = matrix()) {
   xinv <- NULL
   set <- function(y) {
@@ -20,6 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+# the function checks if the matrix already has an inverse or should calculate it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
